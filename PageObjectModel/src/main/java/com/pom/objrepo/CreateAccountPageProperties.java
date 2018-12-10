@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 public interface CreateAccountPageProperties {
 
 	
+	By NEWLOCATOR=By.id("123");
 	By FIRSTNAME_LOCATOR=By.id("customer_firstname");
 	By LASTNAME_LOCATOR=By.id("customer_lastname");
 	By PASSWORD_LOCATOR=By.id("passwd");
